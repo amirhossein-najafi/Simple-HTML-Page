@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web with HTML">
     <title>Sample Page</title>
     <meta name="description" content="A sample HTML page with semantic elements">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" href="IMG/icons8-journal-48.png">
 </head>
 
 <body>
@@ -13,8 +14,12 @@
     <h1>Main Header</h1>
     <nav>
         <ul>
-            <li><a href="#"  alt="Link 1">Link 1</a></li>
-            <li><a href="#"  alt="Link 2">Link 2</a></li>
+            <li><a href="#" alt="Link 1" target="_blank">Link 1</a></li>
+            <li><a href="#" alt="Link 2" target="_parent">Link 2</a></li>
+            </ul>
+        <ul>
+            <ol><a href="#" alt="Link 3" target="_self">Link 3</a></ol>
+            <ol><a href="#" alt="Link 4" target="_top">Link 4</a></ol>
         </ul>
     </nav>
 </header>
@@ -23,7 +28,7 @@
     <section>
         <h2>Section 1</h2>
         <p>This is a paragraph in section 1.</p>
-        <img src="IMG/chris-ried-ieic5Tq8YMk-unsplash.jpg" width="1000" alt="">
+        <img src="IMG/chris-ried-ieic5Tq8YMk-unsplash.jpg" width="1000" alt="image1">
     </section>
 
     <section>
@@ -37,6 +42,34 @@
             <p>Content of article 2.</p>
         </article>
     </section>
+    <section>
+        <table>
+            <tr>
+                <th>name</th>
+                <th>last_name</th>
+                <th>email</th>
+                <th>Phone_number</th>
+            </tr>
+            <tr>
+                <td>Amir</td>
+                <td>Najafi</td>
+                <td>njamir16@gmail.com</td>
+                <td>09308082375</td>
+            </tr>
+            <tr>
+                <td>Amir</td>
+                <td>Najafi</td>
+                <td>njamir16@gmail.com</td>
+                <td>09308082375</td>
+            </tr>
+            <tr>
+                <td>Amir</td>
+                <td>Najafi</td>
+                <td>njamir16@gmail.com</td>
+                <td>09308082375</td>
+            </tr>
+        </table>
+    </section>
 </main>
 <aside>
     <h2>Aside Section</h2>
@@ -44,15 +77,17 @@
         <p>This is a sidebar with some additional information.</p>
     </div>
 </aside>
-<audio controls src="IMG/Pink%20Sweat$%20-%20At%20My%20Worst%20(feat.%20Kehlani)%20(%20GandomMusic.ir%20).mp3" style="display: block ">
+<audio controls src="IMG/Pink%20Sweat$%20-%20At%20My%20Worst%20(feat.%20Kehlani)%20(%20GandomMusic.ir%20).mp3"
+       alt="music1" style="display: block ">
     Your browser does not support the audio element.
 </audio>
 
-<video controls width="320" height="240"  src="IMG/e25a3be344a61e57d9a59253c947e06317508763-240p.mp4" style="display: block ">
+<video controls width="320" height="240" src="IMG/e25a3be344a61e57d9a59253c947e06317508763-240p.mp4"
+       style="display: block" alt="video1">
     Your browser does not support the video tag.
 </video>
 <footer>
-    <p>&copy; 2024 Sample Page. All rights reserved.</p>
+    <span>2024 Sample Page. All rights reserved.</span>
 </footer>
 </body>
 </html>
